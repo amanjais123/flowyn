@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Flowyn – Workflow Automation Platform
 
-## Getting Started
+Flowyn is a **workflow automation platform** similar to n8n, designed to help users automate tasks and integrate multiple services through a **visual workflow builder**. It allows creating complex workflows using triggers, messaging nodes, AI integrations, and background job execution.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ⚡ Workflow Features
+- **Visual workflow builder** for creating and managing automated workflows.  
+- **Trigger-based workflows** including Webhooks, Google Forms, Stripe, and Manual triggers.  
+- **Messaging nodes** for Discord and Slack integrations.  
+- **HTTP request node** for flexible API interactions.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🤖 AI Integrations
+- Integrated **OpenAI, Claude, and Gemini** nodes to enable intelligent automation within workflows.
 
-## Learn More
+### ⚙️ Technical Features
+- **Background job execution** using Inngest for scalable and reliable workflow processing.  
+- **Secure authentication and role-based access** using Polar.  
+- **Type-safe database management** with Prisma and Neon (PostgreSQL).  
+- Built with **Next.js** for a responsive and modular frontend.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend:** Next.js  
+- **Backend:** Node.js (API routes via Next.js)  
+- **Database:** Neon (PostgreSQL) + Prisma ORM  
+- **Authentication:** Polar  
+- **Workflow Engine:** Inngest  
+- **Integrations:** OpenAI, Claude, Gemini, Discord, Slack  
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
