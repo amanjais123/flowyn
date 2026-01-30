@@ -239,7 +239,7 @@ export const EmptyView = ({
 } : EmptyViewProps) => {
 
 return (
-  <Empty className='border border-dashed bg-white'>
+  <Empty className='border border-dashed bg-secondary'>
     
     <EmptyHeader>
       <EmptyMedia variant="icon">
@@ -319,7 +319,7 @@ interface EntityItemProps {
   image? : React.ReactNode ;
   actions? : React.ReactNode ;
   onRemove? : () => void | Promise<void> ;
-  isRemoving : boolean ;
+  isRemoving? : boolean ;
   className? : string ; 
 } ;
 

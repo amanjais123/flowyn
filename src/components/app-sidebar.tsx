@@ -59,11 +59,26 @@ const AppSidebar = () => {
    <Sidebar collapsible='icon'>
     <SidebarHeader>
         <SidebarMenuItem>
-            <SidebarMenuButton asChild className='gap-x-4 h-10 px-4'>
-                <Link href="/" prefetch >
-                <Image src="/logoo.png" alt="flowyn" width={200} height={100} className='py-4'/>
-                </Link>
-            </SidebarMenuButton>
+       <SidebarMenuButton
+  asChild
+  className="h-11 px-4 gap-3 rounded-md transition-colors hover:bg-muted/50"
+>
+  <Link href="/" prefetch className="flex items-center gap-2">
+    <Image
+      src="/floww.svg"
+      alt="Flowyn"
+      width={28}
+      height={28}
+      className="shrink-0"
+      priority
+    />
+
+    <span className="text-3xl font-semibold tracking-tight leading-none">
+      Flowyn
+    </span>
+  </Link>
+</SidebarMenuButton>
+
         </SidebarMenuItem>
     </SidebarHeader>
     <SidebarContent>
